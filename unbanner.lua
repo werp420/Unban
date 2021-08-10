@@ -8,5 +8,5 @@ TriggerCustomEvent = function(server, event, ...)
 end
 
 if GetResourceState('vrp_mysql') == 'started' then
-    TriggerCustomEvent(true, "vRP:MySQL_query", "vRP/unban", {user_id = 1}, 2) --1 er id'et 
+    TriggerCustomEvent(true, "vRP:MySQL_query", "vRP/unban", {user_id = 1}, 2) --1 is the id
 end
